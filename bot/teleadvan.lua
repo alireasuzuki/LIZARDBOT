@@ -215,20 +215,12 @@ function create_config( )
     "banhammer",
     "Boobs",
     "ID",
-    "en_banhammer",
-    "en_echo",
-    "en_help",
-    "en_ingroup",
-    "en_invite",
-    "en_linkpv",
     "lock_join",
     "antilink",
     "antitag",
     "gps",
-    "wiki",
     "auto_leave",
     "tagall",
-    "arabic_lock",
     "welcome",
     "google",
     "plugins",
@@ -248,7 +240,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {111984481,103373495,67647823},--Sudo users
+    sudo_users = {111984481},--Sudo users id
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Creed bot 2.3
